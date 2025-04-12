@@ -57,7 +57,7 @@ const ChatContainer = () => {
               <div className="size-9 rounded-full overflow-hidden">
                 <img
                   className="w-full h-full object-cover"
-                  src={selectedUser?.profilePic || "../public/avatar.png"}
+                  src={selectedUser?.profilePic || "/avatar.png"}
                   alt="profile pic"
                 />
               </div>
@@ -124,7 +124,7 @@ const ChatContainer = () => {
               <div className="size-9 rounded-full overflow-hidden">
                 <img
                   className="w-full h-full object-cover"
-                  src={authUser?.profilePic || "../public/avatar.png"}
+                  src={authUser?.profilePic || "/avatar.png"}
                   alt="profile pic"
                 />
               </div>
