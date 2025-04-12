@@ -12,7 +12,7 @@ const ChatHeader = () => {
         <div className="rounded-full size-11 cursor-pointer overflow-hidden">
           <img
             className="h-full w-full object-cover"
-            src={selectedUser?.profilePic || "../public/avatar.png"}
+            src={selectedUser?.profilePic || "/avatar.png"}
             alt="userProfile"
           />
         </div>
