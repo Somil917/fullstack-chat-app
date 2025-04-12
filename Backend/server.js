@@ -1,5 +1,3 @@
-const app = require("./app");
-const http = require("http");
 const { server } = require("./lib/socket");
 const port = process.env.PORT || 3000;
 
