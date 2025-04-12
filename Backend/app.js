@@ -9,7 +9,7 @@ const userRoutes = require("./routes/user.routes");
 const messageRoutes = require("./routes/message.routes");
 
 const path = require("path");
-const __dirname = path.resolve();
+// const __dirname = path.resolve();
 
 connectToDb();
 
