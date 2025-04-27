@@ -42,7 +42,7 @@ const ChatContainer = () => {
   return (
     <div className="flex-1 h-screen flex flex-col ">
       <ChatHeader />
-      <div className="px-3 py-2 flex-1 overflow-y-auto">
+      <div className="px-3 py-2 mt-14 flex-1 overflow-y-auto">
         {messages?.map((message) => (
           <div
             key={message._id}
@@ -57,7 +57,7 @@ const ChatContainer = () => {
               <div className="size-9 rounded-full overflow-hidden">
                 <img
                   className="w-full h-full object-cover"
-                  src={selectedUser?.profilePic || "../public/avatar.png"}
+                  src={selectedUser?.profilePic || "/avatar.png"}
                   alt="profile pic"
                 />
               </div>
@@ -124,7 +124,7 @@ const ChatContainer = () => {
               <div className="size-9 rounded-full overflow-hidden">
                 <img
                   className="w-full h-full object-cover"
-                  src={authUser?.profilePic || "../public/avatar.png"}
+                  src={authUser?.profilePic || "/avatar.png"}
                   alt="profile pic"
                 />
               </div>

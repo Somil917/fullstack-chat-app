@@ -7,12 +7,12 @@ const ChatHeader = () => {
   const { onlineUsers } = useUserStore();
 
   return (
-    <header className="py-2 px-3 flex justify-between items-center bg-neutral-200/50 w-full">
+    <header className="py-2 px-3 fixed flex justify-between items-center bg-neutral-200 w-full">
       <div className="flex items-center gap-x-2.5">
         <div className="rounded-full size-11 cursor-pointer overflow-hidden">
           <img
             className="h-full w-full object-cover"
-            src={selectedUser?.profilePic || "../public/avatar.png"}
+            src={selectedUser?.profilePic || "/avatar.png"}
             alt="userProfile"
           />
         </div>

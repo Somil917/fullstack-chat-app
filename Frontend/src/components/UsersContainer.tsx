@@ -46,7 +46,7 @@ const UsersContainer = () => {
             <div className="rounded-full border border-zinc-400 size-11 cursor-pointer overflow-hidden">
               <img
                 className="h-full w-full object-cover"
-                src={user.profilePic || "../public/avatar.png"}
+                src={user.profilePic || "/avatar.png"}
                 alt="userProfile"
               />
             </div>

@@ -16,7 +16,7 @@ const Sidebar = () => {
         >
           <img
             className="h-full w-full object-cover"
-            src={authUser?.profilePic || "../public/avatar.png"}
+            src={authUser?.profilePic || "/avatar.png"}
             alt=""
           />
         </div>

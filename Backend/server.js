@@ -1,3 +1,4 @@
+const app = require("./app");
 const { server } = require("./lib/socket");
 const port = process.env.PORT || 3000;
 

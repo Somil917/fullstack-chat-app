@@ -21,7 +21,7 @@ function App() {
           path="/"
           element={
             !authUser && !isCheckingAuth ? (
-              <div className="w-full h-screen flex justify-center items-center">
+              <div className="px-5 w-full h-screen flex justify-center items-center">
                 <LoginForm view={"sign-in"} />
               </div>
             ) : (
@@ -33,7 +33,7 @@ function App() {
           path="/signup"
           element={
             !authUser ? (
-              <div className="w-full h-screen flex justify-center items-center">
+              <div className="px-4 w-full h-screen flex justify-center items-center">
                 <LoginForm view={"sign-up"} />
               </div>
             ) : (
